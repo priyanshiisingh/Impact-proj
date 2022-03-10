@@ -1,0 +1,72 @@
+.slick-prev {
+    position: absolute;
+    z-index: 1;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    margin-left: 8%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    /* IE 9 */
+    -webkit-transform: translateY(-50%);
+    /* Safari */
+    transform: translateY(-50%);
+}
+
+.slick-next {
+    z-index: 1;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    position: absolute;
+    margin-right: 8%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    /* IE 9 */
+    -webkit-transform: translateY(-50%);
+    /* Safari */
+    transform: translateY(-50%);
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: "" !important;
+    color: black !important;
+}
+
+.slick-dots {
+    bottom: 55px !important;
+}
+
+.slick-dots li button::before {
+    color: rgb(211, 211, 211) !important;
+    font-size: 10px !important;
+    opacity: 0.7 !important;
+}
+
+.slick-dots li.slick-active button::before {
+    color: #f85a40 !important;
+    opacity: 1 !important;
+}
+
+.slick-dots li button:hover:before {
+    color: #f85a40 !important;
+    opacity: 1 !important;
+}
+
+section#donate h3 {
+    margin-top: 0;
+}
+
+ul.slick-dots {
+    bottom: 0;
+}
+
+section.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 765px) {
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+}

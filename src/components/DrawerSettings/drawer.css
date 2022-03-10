@@ -1,0 +1,12 @@
+.hbtn:focus {
+    box-shadow: none !important;
+}
+
+.cbtn:focus {
+    box-shadow: none !important;
+    background: none;
+}
+
+.cbtn:hover {
+    background: none !important;
+}
