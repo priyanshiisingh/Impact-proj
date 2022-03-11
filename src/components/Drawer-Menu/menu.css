@@ -7,10 +7,27 @@
 }
 
 .span1 {
-    transition: all 0.5s ease;
     margin-left: 160px;
-    transform: rotateY(180deg);
+    border: 1px solid black;
+    transform: rotate(0);
+    transition: all 0.75s 0.25s;
 }
+
+#menu-two :checked+.span1 {
+    transform: rotate(180deg);
+}
+
+
+/* .icon {
+    transition: all 0.75s 0.25s;
+    transform: rotate(0);
+} */
+
+
+/* .icon:active {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+} */
 
 .span2 {
     margin-left: 130px;
@@ -52,7 +69,7 @@
 
 /* when hovering over a .mainmenu item,
     display the submenu inside it.
-    we're changing the submenu's max-height from 0 to 200px;
+    we're changing the submenu's max-height from 0 to 600px;
   */
 
 .mainmenu :checked+.submenu {
