@@ -1,3 +1,7 @@
+##Impact-proj
+
+This project was created using ReactJs, Typescript and ChakraUI. The main aim was to practice UI development using these technologies. The website has a hero component, carousel, video modal and multi-level drawer. It is responsive for all screens.
+
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
